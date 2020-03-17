@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: Garamond;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(../image/acapulco-3605307_19201.jpg);
+    background-position-y: -21rem;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+  
+}
+nav{
+    
+    background-color: rgb(5, 5, 51);
+    color: #ccc;
+
+}
+.logo1{
+    padding: 2rem;
+    font-size: 2.5rem;
+}
+.logo2{
+    margin-top: -2rem;
+    font-size: 1.3rem;
+    padding-left: 2.5rem;
+    padding-bottom:1rem; 
+    
+}
+.list{
+    float:right;
+}
+.menulist {
+    margin-top: -3.5rem;
+}
+.menulist li{
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 1.5rem;
+}
+.logo3{
+    padding: 1rem;
+    width: 2.4rem;
+}
+.logo4{
+    padding: 1rem;
+    width: 2.4rem;
+}
+.logo5{
+    padding: 1rem;
+    width: 3rem;
+}
+.lbl1{
+    float: right;
+    padding: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    color: #ccc;
+}
+.contact{
+    background-color: #000 transparent;
+}
+.content{
+    text-align: center;
+    margin-top:5rem;
+}
+.con1{
+    font-size: 6rem;
+    color: rgb(255, 238, 0);
+    font-weight: bold;
+}
+.con2{
+    font-size: 1.5rem;
+    color: rgb(0, 238, 0);
+}
+.con3{
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+}
+.btn_learn{
+    width: 10rem;
+    height: 2rem;
+    margin-top:1rem; 
+    font-size: 1.2rem;
+    background-color: rgb(5, 5, 51);
+    color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.room{
+    text-align: center;
+    margin-top: 16.8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(255, 187, 0);
+    color: #fff;
+}
+.details{
+    text-align: center;
+    margin-top:2rem;
+}
+.details h2{
+    letter-spacing: 0.5rem;
+    font-size: 1.5rem;
+    color: #444;
+    text-transform: uppercase;
+}
+.details p{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+.logo6{
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+.lbl2{
+    margin-left: 13rem;
+    font-size: 1.2rem;
+}
+.aboutus{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #555;
+}
+.image1{
+    margin-top:2rem; 
+    width: 100%;
+}
+.team{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #555;
+}
+.img1{
+    width: 150px;
+    margin-right: 2rem;
+    margin-top: 4rem;
+}
+.img2{
+    width: 300px;
+}
+.int3{
+    width: 240px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+}
+.int1{
+    width: 15rem;
+    height: 0.1rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+}
+.int2{
+    width: 15rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+.upimage{
+    float: right;
+    margin-top: -2rem;
+    margin-right: 2rem;
+}
+@media only screen and (max-width:605px)
+{
+    .con1{
+        font-size: 4.5rem;
+    }
+}
+
+@media only screen and (max-width:854px)
+{
+    .list{
+        display: none;
+    }
+}
+@media only screen and (max-width:488px)
+{
+   .lbl{
+        margin-top: -1.5rem;
+    }
+    .con1{
+        font-size: 4rem;
+    }
+   
+}
+@media only screen and (max-width:450px)
+{
+    .con1{
+        font-size: 3.4rem;
+    }
+}
+@media only screen and (max-width:350px)
+{
+    .con1{
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width:550px)
+{
+    .con3{
+        font-size: 2rem;
+    }
+    .con2{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:320px)
+{
+    .logo1{
+        font-size: 2.3rem;
+    }
+    .con3{
+        font-size: 1.5rem;
+    }
+    .con1{
+        font-size: 2.5rem;
+    }
+    .lbl1{
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width:380px)
+{
+    .h1first{
+        font-size: 1.5rem;
+    }
+    .room{
+        margin-top: 20rem;
+    }
+}
+
+@media only screen and (max-width:670px)
+{
+    .details h2{
+        letter-spacing: 0.5rem;
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (max-width:450px)
+{
+    .logo6{
+        margin-left: 5rem;
+    }
+    .aboutus h1{
+        font-size: 2.5rem;
+    }
+    .team h1{
+        font-size: 2.5rem;
+    }
+    .team p{
+        font-size: 1.3rem;
+    }
+}
